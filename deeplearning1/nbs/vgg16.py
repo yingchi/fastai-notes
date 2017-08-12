@@ -43,7 +43,8 @@ class Vgg16():
 
 
     def __init__(self):
-        self.FILE_PATH = 'http://files.fast.ai/models/'
+        self.FILE_PATH = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.1/'
+        # self.FILE_PATH = 'http://files.fast.ai/models/'
         self.create()
         self.get_classes()
 
@@ -135,7 +136,8 @@ class Vgg16():
         self.FCBlock()
         model.add(Dense(1000, activation='softmax'))
 
-        fname = 'vgg16.h5'
+        fname = 'vgg16_weights_th_dim_ordering_th_kernels.h5'
+        # fname = 'vgg16.h5'
         model.load_weights(get_file(fname, self.FILE_PATH+fname, cache_subdir='models'))
 
 
