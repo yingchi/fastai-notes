@@ -3,7 +3,8 @@ _site/
 .jekyll-metadata
 .ipynb_checkpoints/
 
-**/data/
+**/train/
+**/valid/
 *.pyc
 *.h5
 fast-ai-remove.sh
