@@ -4,9 +4,9 @@ _site/
 .ipynb_checkpoints/
 
 **.DS_Store
+**/.idea/
 **/data/
 *.pyc
 *.h5
-ai_aliases.sh
 fast-ai-commands.txt
 fast-ai-remove.sh
