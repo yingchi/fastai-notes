@@ -43,8 +43,8 @@ class Vgg16():
 
 
     def __init__(self):
-        self.FILE_PATH = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.1/'
-        # self.FILE_PATH = 'http://files.fast.ai/models/'
+        # self.FILE_PATH = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.1/'
+        self.FILE_PATH = 'http://files.fast.ai/models/'
         self.create()
         self.get_classes()
 
