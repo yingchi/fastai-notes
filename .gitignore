@@ -5,6 +5,7 @@ _site/
 
 **/train/
 **/valid/
+**/models/
 *.pyc
 *.h5
 fast-ai-remove.sh
