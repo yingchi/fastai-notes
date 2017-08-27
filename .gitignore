@@ -3,6 +3,7 @@ _site/
 .jekyll-metadata
 .ipynb_checkpoints/
 
+**/results/
 **/train/
 **/valid/
 **/models/
