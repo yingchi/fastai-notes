@@ -1,4 +1,5 @@
 # Connect to your instance:
+<<<<<<< Updated upstream
 ssh -i /Users/yingchipei/.ssh/aws-key-fast-ai.pem ubuntu@ec2-34-209-181-236.us-west-2.compute.amazonaws.com
 # Stop your instance: :
 aws ec2 stop-instances --instance-ids i-0edd78eebd0adbe4d
@@ -18,3 +19,24 @@ export subnetId=subnet-032cfb65
 export allocAddr=eipalloc-0905c934
 export assocId=eipassoc-bf42ce83
 export routeTableAssoc=rtbassoc-ac3ee9d4
+=======
+ssh -i /Users/PeiYingchi/.ssh/aws-key-fast-ai.pem ubuntu@ec2-52-33-25-250.us-west-2.compute.amazonaws.com
+# Stop your instance: :
+aws ec2 stop-instances --instance-ids i-00e5a50e782500688
+# Start your instance:
+aws ec2 start-instances --instance-ids i-00e5a50e782500688
+# Reboot your instance:
+aws ec2 reboot-instances --instance-ids i-00e5a50e782500688
+export instanceId=i-00e5a50e782500688
+export subnetId=subnet-6ddebf36
+export securityGroupId=sg-2d84a357
+export instanceUrl=ec2-52-33-25-250.us-west-2.compute.amazonaws.com
+export routeTableId=rtb-fe2a3398
+export name=fast-ai
+export vpcId=vpc-d0880fb6
+export internetGatewayId=igw-57583530
+export subnetId=subnet-6ddebf36
+export allocAddr=eipalloc-fc9c53c1
+export assocId=eipassoc-34a22c08
+export routeTableAssoc=rtbassoc-80c312f8
+>>>>>>> Stashed changes
